@@ -3,7 +3,7 @@ default:
   push_images: true
 
 kubernetes:
-  version: v1.23.6
+  version: v1.28.3
 
 images:
   - registry.k8s.io/ingress-nginx/controller
