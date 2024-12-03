@@ -1,10 +1,9 @@
 default:
   push_kubernetes: false
-  push_images: false
+  push_images: true
 
 kubernetes:
   version: v1.23.6
 
 images:
-  - registry.k8s.io/ingress-nginx/controller
-  - docker.io/library/mysql:8.0.39
+  - docker.io/minio/mc:RELEASE.2024-11-05T11-29-45Z-cpuv1
